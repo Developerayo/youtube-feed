@@ -1,0 +1,22 @@
+.youtube-feed {
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video {
+    width: 320px;
+    display: inline-block;
+    box-shadow: 0 2px 10px 0 rgba(193, 193, 193, .4);
+    margin: 10px;
+}
+
+.video:hover {
+    border: 1px solid #FB7C04;
+}
+
+.yt_video {
+    display: inline-block;
+}
