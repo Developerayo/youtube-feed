@@ -20,3 +20,10 @@
 .yt_video {
     display: inline-block;
 }
+
+@media all and (max-width:768px) {
+    .video {
+        width:100%;
+        margin: auto;
+    }
+}
