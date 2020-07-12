@@ -1,6 +1,6 @@
 var channelID = "UCpidmaY0_DVjBk1lyHKNxtQ";
 $.getJSON('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3D' + channelID, function (data) {
-    for (i = 0; i < 9; i++) {
+    for (i = 0; i < 20; i++) {
         var title = data.items[i].title;
         var link = data.items[i].link;
         var id = link.substr(link.indexOf("=") + 1);
